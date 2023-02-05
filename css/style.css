@@ -3,6 +3,11 @@
   font-size: 2.5rem;
 }
 
+@media (max-width: 576px) {
+  .btn1 {
+    font-size: 1.5rem;
+  }
+}
 .animate-size {
   -webkit-animation: animateSize 0.5s ease-in-out infinite;
           animation: animateSize 0.5s ease-in-out infinite;
@@ -47,6 +52,22 @@
 
 .swiper-container-testimonial {
   margin: 4rem 13vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.para-quem {
+  overflow: hidden;
+  position: relative;
+}
+
+.funcionalidades-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.reasons-container {
+  margin: 6rem auto;
 }
 
 .swiper-button-prev,

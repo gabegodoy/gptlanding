@@ -1,0 +1,42 @@
+.btn1 {
+  margin: 4rem 0;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 576px) {
+  .btn1 {
+    font-size: 1.5rem;
+  }
+}
+
+.animate-size {
+  animation: animateSize 0.5s ease-in-out infinite;
+}
+
+@keyframes animateSize {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.dynamic-shadow {
+  position: relative;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.shadow {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: calc(100%);
+  height: calc(100%);
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+}
