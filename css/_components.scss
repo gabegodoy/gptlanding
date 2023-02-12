@@ -10,7 +10,7 @@
 }
 
 .animate-size {
-  animation: animateSize 0.5s ease-in-out infinite;
+  animation: animateSize 2.5s ease-in-out infinite;
 }
 
 @keyframes animateSize {
@@ -39,4 +39,8 @@
   width: calc(100%);
   height: calc(100%);
   box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container_pad{
+  padding: 8rem auto;
 }
